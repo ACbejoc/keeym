@@ -67,7 +67,7 @@
     @media (max-width: 640px){
         max-width: 90%;
         margin: 260px auto;
-        opacity: .5;
+        
     }
     i{
         display: flex !important;
@@ -89,7 +89,6 @@
       align-items: center;
   }
   .tulips {
-
       bottom: 10px;
       margin: unset;
       left: 0;
@@ -97,8 +96,24 @@
       position: relative;
       width: fit-content;
       z-index: 1;
+      @media (max-width: 640px){
+        bottom: -150px;
+      }
   }
   
+  .tulips_hide {
+    bottom: 10px;
+    margin: unset;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    @media (max-width: 640px){
+      bottom: -150px;
+      display: none;
+    }
+}
   .stemEnd1, .stemEnd2, .stemEnd3, .stemEnd4 {
     visibility:hidden;
   }
