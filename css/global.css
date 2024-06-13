@@ -1,5 +1,4 @@
 
-
 .center_heart{
     width: fit-content;
     height: fit-content;
@@ -58,7 +57,7 @@
 }
 
 .home_form_container{
-    margin: 350px auto;
+    margin: 280px auto;
     max-width: 300px;
     background-color: #ffffe6;
     border-radius: 20px;
@@ -67,7 +66,8 @@
     border-style: solid;
     @media (max-width: 640px){
         max-width: 90%;
-        margin: 450px auto;
+        margin: 260px auto;
+        
     }
     i{
         display: flex !important;
@@ -76,3 +76,45 @@
         margin: 0 auto;
     }
 }   
+
+
+.intro {
+    /* background: url('images/Messenger_creation_0a0e5953-2596-4ce2-800d-0d4be0bce381.jpeg'); */
+      background-size: cover;
+      height: 100px;
+      position: relative;
+      z-index: -1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .tulips {
+      bottom: 10px;
+      margin: unset;
+      left: 0;
+      overflow: hidden;
+      position: relative;
+      width: fit-content;
+      z-index: 1;
+      @media (max-width: 640px){
+        bottom: -150px;
+      }
+  }
+  
+  .tulips_hide {
+    bottom: 10px;
+    margin: unset;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    z-index: 1;
+    @media (max-width: 640px){
+      bottom: -150px;
+      display: none;
+    }
+}
+  .stemEnd1, .stemEnd2, .stemEnd3, .stemEnd4 {
+    visibility:hidden;
+  }
+  
