@@ -24,6 +24,9 @@
     form{
         width: 100%;
     }
+    .test{
+        display: inline-table;
+    }
     .center_div{
         width: 100%;
         display: flex;
